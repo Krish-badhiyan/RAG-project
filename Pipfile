@@ -4,7 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+huggingface-hub = "*"
 streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+faiss-cpu = "*"
+pypdf = "*"
 
 [dev-packages]
 
